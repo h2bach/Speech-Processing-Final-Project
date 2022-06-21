@@ -251,4 +251,4 @@ class ResNet(nn.Module):
 
 ### 3. Kết quả
 Kết quả huấn luyện sau 10 epoch, batch size = 64. Sau mỗi epoch thực hiện đo độ chính xác trên tập dev
-![](https://drive.google.com/file/d/12-9sxKwSXytgXF1VAVuH9kX1xn4pkmny/view?usp=sharing)
+![Uploading Screen Shot 2022-06-21 at 17.07.06.png…]()
