@@ -144,6 +144,8 @@ plt.subplots_adjust(right=1.9)
 plt.show()
 
 ```
+<img width="720" alt="Screen Shot 2022-06-21 at 15 38 38" src="https://user-images.githubusercontent.com/63334287/174860125-e5e1a3bd-057b-4b18-a69f-6575ceed1790.png">
+
 Vì các file âm thanh có định dạng mp3 và để dữ liệu huấn luyện có sự cân bằng ta sẽ trích 10000 file âm thanh với tỉ lệ female:male là 50:50 và chuyển file âm thanh sang dạng file wav
 
 ##### Chuyển đổi file .mp3 sang .wav
@@ -182,7 +184,7 @@ ResNet có nhiều biến thể, cụ thể là ResNet16, ResNet18, ResNet34, Re
 
 #### 2.2 Kiến trúc mô hình
 
-![](https://www.researchgate.net/publication/350472892/figure/fig2/AS:1023140893294612@1620947206872/Overall-architecture-of-ResNet-50-that-inputs-the-mel-spectrogram-ResNet-includes.ppm)
+<img width="850" alt="Screen Shot 2022-06-22 at 00 22 34" src="https://user-images.githubusercontent.com/63334287/174860321-ba1ce955-af5d-40ed-abc1-03a57463c2b0.png">
 
 ##### 2.2.1 Trích xuất đặc trưng
 Spectrograms được tạo ra từ tín hiệu âm thanh bằng cách sử dụng Fourier Transforms. Biến đổi Fourier phân tách tín hiệu thành các tần số cấu thành của nó và hiển thị biên độ của mỗi tần số có trong tín hiệu.
