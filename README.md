@@ -253,4 +253,5 @@ class ResNet(nn.Module):
 
 ### 3. Kết quả
 Kết quả huấn luyện sau 10 epoch, batch size = 64. Sau mỗi epoch thực hiện đo độ chính xác trên tập dev. Kết quả dự đoán cao nhất trong tập test là 97%
+
 <img width="549" alt="Screen Shot 2022-06-21 at 17 07 06" src="https://user-images.githubusercontent.com/63334287/174859794-25d7a10d-d763-4078-8d1c-c897e202212f.png">
