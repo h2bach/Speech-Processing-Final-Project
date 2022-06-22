@@ -252,6 +252,13 @@ class ResNet(nn.Module):
         return output
 
 ```
+##### 2.2.3 Sử dụng kết quả đã xây dựng để dự đoán
+Sau quá trình training sử dụng ResNet, mô hình được lưu vào trong các file tar nhằm mục đích tái sử dụng cho quá trình dự đoán trong tương lai.
+Do kích thước của các file tar lớn, github không cho phép đẩy lên, vì vậy, nhóm lựa chọn lưu trên google drive.
+Cài đặt cụ thể cho mô hình này như sau: 
+
+Bước 1: Tải mô hình về tại đây: https://drive.google.com/drive/folders/1XNRzm_YLNWehtvBIhaY5cXqrsYvdlelL?usp=sharing
+Bước 2: Lưu mô hình về tại folder $model$ (Trong folder này chứa cả mô hình huấn luyện đối với emotion)
 
 ### 3. Kết quả
 Kết quả huấn luyện sau 10 epoch, batch size = 64. Sau mỗi epoch thực hiện đo độ chính xác trên tập dev. Kết quả dự đoán cao nhất trong tập test là 97%
