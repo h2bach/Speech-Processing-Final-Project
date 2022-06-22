@@ -1,0 +1,27 @@
+{% extends "index.html" %} {% block emotion %}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="mx-auto pt-5" style="width: 800px;">
+            <h1 class="text-center">Classify audio by emotion</h1>
+            <div class="input-group pt-5">
+                <input type="file" class="form-control" id="InputFile" aria-describedby="inputGroupFileAddon04"
+                    aria-label="Upload" accept="audio/*">
+                <button class="btn btn-outline-secondary" type="button" id="Button"
+                    onclick="emotionSubmitAudio();">Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <audio id="audio-preview" class="hidden" />
+    </div>
+</div>
+
+<div class="container-fluid mt-5" id="audio-box">
+    <audio id="audio-display"> </audio>
+    <h3 class="text-center"> Classified: </h3>
+    <h3 class="text-center" id="pred-result"></h3>
+</div>
+
+{% endblock %}
