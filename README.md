@@ -1,5 +1,6 @@
 # Speech-Processing-Final-Project
 ## Web phân loại âm thanh:
+- Link app: https://github.com/BuiPhg/frontend_speech
 - Chức năng: Phân loại giới tính, cảm xúc của người nói từ file âm thanh đầu vào.
 - Demo: https://drive.google.com/file/d/16SZ2OGnNt1yizQVkja4vqAsxds7fx8uq/view?usp=sharing
 ## Nhận diện cảm xúc
