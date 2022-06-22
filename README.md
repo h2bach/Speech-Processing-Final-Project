@@ -1,10 +1,12 @@
 # Speech-Processing-Final-Project
-
+## Web phân loại âm thanh:
+- Chức năng: Phân loại giới tính, cảm xúc của người nói từ file âm thanh đầu vào.
+- Demo: https://drive.google.com/file/d/16SZ2OGnNt1yizQVkja4vqAsxds7fx8uq/view?usp=sharing
 ## Nhận diện cảm xúc
 Xây dựng mô hình nhận diện cảm xúc của người nói trong 1 đoạn âm thanh.
 ### Dữ liệu
 - Tập dữ liệu RAVDESS: là một trong những tập dữ liệu phổ biến được sử dụng trong việc nhận dạng cảm xúc. Nó cũng được sử dụng nhiều vì chất lượng của loa, thu âm và nó có 24 diễn giả thuộc các giới tính khác nhau. Các xác định các thành phần từ tên File của tập dữ liệu Ravdess:
---Modality (01 = full-AV, 02 = video-only, 03 = audio-only).
+- - Modality (01 = full-AV, 02 = video-only, 03 = audio-only).
 --Vocal channel (01 = speech, 02 = song).
 --Emotion (01 = neutral, 02 = calm, 03 = happy, 04 = sad, 05 = angry, 06 = fearful, 07 = disgust, 08 = surprised).
 --Emotional intensity (01 = normal, 02 = strong). NOTE: There is no strong intensity for the 'neutral' emotion.
