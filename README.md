@@ -258,6 +258,7 @@ Do kích thước của các file tar lớn, github không cho phép đẩy lên
 Cài đặt cụ thể cho mô hình này như sau: 
 
 Bước 1: Tải mô hình về tại đây: https://drive.google.com/drive/folders/1XNRzm_YLNWehtvBIhaY5cXqrsYvdlelL?usp=sharing
+
 Bước 2: Lưu mô hình về tại folder $model$ (Trong folder này chứa cả mô hình huấn luyện đối với emotion)
 
 ### 3. Kết quả
